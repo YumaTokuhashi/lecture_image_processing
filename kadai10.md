@@ -17,7 +17,6 @@ imagesc(IMG); colormap('gray'); colorbar;% 画像表示
 ![原画像](https://raw.githubusercontent.com/YumaTokuhashi/lecture_image_processing/master/10-3.bmp)  
 図3 ソベル法によるエッジ検出
 
-
 IMG = edge(ORG,'canny'); % エッジ抽出（キャニー法）
 imagesc(IMG); colormap('gray'); colorbar;% 画像表示
 ![原画像](https://raw.githubusercontent.com/YumaTokuhashi/lecture_image_processing/master/10-4.bmp)  
