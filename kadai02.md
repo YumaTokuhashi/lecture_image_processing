@@ -38,6 +38,6 @@ IMG6 = ORG>224;
 IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
-![原画像](https://raw.githubusercontent.com/YumaTokuhashi/lecture_image_processing/master/1-1.bmp)  
+![原画像](https://raw.githubusercontent.com/YumaTokuhashi/lecture_image_processing/master/2-4.bmp)  
 図4 8階調画像
 
